@@ -14,8 +14,8 @@ public class Grafo
     
     public void ver()
     {
-        //g.displayGraphstream_0_4_2();
-        g.display();
+        g.displayGraphstream_0_4_2();
+        //g.display();
     }
     
     public void addNodos(int n)
