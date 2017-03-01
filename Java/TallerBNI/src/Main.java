@@ -20,8 +20,8 @@ public class Main extends Grph{
         
         newGraph = MyGraph.getGraph();//Convertimos nuestro grafo al tipo de grafo de la librería para poder hacer la busqueda
         
-        MyBFS.BFS(newGraph,YoloAgent,1,50);//BFS y DFS, las cuáles nos dibujan un grafo por pantalla y no recibe, un grafo, un agente, camino A y camino B
-        MyDFS.DFS(newGraph,YoloAgent,1,50);
+        MyBFS.BFS(newGraph,YoloAgent,0,53);//BFS y DFS, las cuáles nos dibujan un grafo por pantalla y no recibe, un grafo, un agente, camino A y camino B
+        MyDFS.DFS(newGraph,YoloAgent,0,53);
         
         newGraph.display();
         

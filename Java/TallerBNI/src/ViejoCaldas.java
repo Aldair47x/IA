@@ -73,167 +73,167 @@ public class ViejoCaldas extends Grafo {
         
         // DPTO CALDAS
         // Manizales
-        grafo.addArista(1, 2, true, 21);
-        grafo.addArista(1, 20, true, 127);
-        grafo.addArista(1, 10, true, 70);
-        grafo.addArista(1, 9, true, 55);
-        grafo.addArista(1, 4, true, 30);
-        grafo.addArista(1, 5, true, 24);
-        grafo.addArista(1, 3, true, 9);   
+        grafo.addArista(1, 2, false, 21);
+        grafo.addArista(1, 20, false, 127);
+        grafo.addArista(1, 10, false, 70);
+        grafo.addArista(1, 9, false, 55);
+        grafo.addArista(1, 4, false, 30);
+        grafo.addArista(1, 5, false, 24);
+        grafo.addArista(1, 3, false, 9);   
         //Neira
-        grafo.addArista(2, 20, true, 107);
-        grafo.addArista(2, 16, true, 30);
-        grafo.addArista(2, 11, true, 27);
-        grafo.addArista(2, 10, true, 87);        
+        grafo.addArista(2, 20, false, 107);
+        grafo.addArista(2, 16, false, 30);
+        grafo.addArista(2, 11, false, 27);
+        grafo.addArista(2, 10, false, 87);        
         //Villamaria
-        grafo.addArista(3, 5, true, 28);        
+        grafo.addArista(3, 5, false, 28);        
         //Palestina
-        grafo.addArista(4, 5, true, 9);
-        grafo.addArista(4, 9, true, 39);        
+        grafo.addArista(4, 5, false, 9);
+        grafo.addArista(4, 9, false, 39);        
         //Chinchina
-        grafo.addArista(5, 9, true, 46);        
+        grafo.addArista(5, 9, false, 46);        
         //Belalcazar
-        grafo.addArista(6, 9, true, 25);
-        grafo.addArista(6, 8, true, 11);
-        grafo.addArista(6, 7, true, 22);        
+        grafo.addArista(6, 9, false, 25);
+        grafo.addArista(6, 8, false, 11);
+        grafo.addArista(6, 7, false, 22);        
         //Viterbo
-        grafo.addArista(7, 8, true, 18);
-        grafo.addArista(7, 10, true, 30);        
+        grafo.addArista(7, 8, false, 18);
+        grafo.addArista(7, 10, false, 30);        
         //San Jose
-        grafo.addArista(8, 9, true, 13);        
+        grafo.addArista(8, 9, false, 13);        
         //Risaralda
-        grafo.addArista(9, 10, true, 14);        
+        grafo.addArista(9, 10, false, 14);        
         //Anserma        
         //Filadelfia
-        grafo.addArista(11, 16, true, 18);
-        grafo.addArista(11, 12, true, 15);
-        grafo.addArista(11, 13, true, 45);
-        grafo.addArista(11, 14, true, 58);        
+        grafo.addArista(11, 16, false, 18);
+        grafo.addArista(11, 12, false, 15);
+        grafo.addArista(11, 13, false, 45);
+        grafo.addArista(11, 14, false, 58);        
         //La mercerd
-        grafo.addArista(12, 16, true, 33);
-        grafo.addArista(12, 17, true, 27);
-        grafo.addArista(12, 18, true, 60);
-        grafo.addArista(12, 15, true, 38);
-        grafo.addArista(12, 13, true, 30);        
+        grafo.addArista(12, 16, false, 33);
+        grafo.addArista(12, 17, false, 27);
+        grafo.addArista(12, 18, false, 60);
+        grafo.addArista(12, 15, false, 38);
+        grafo.addArista(12, 13, false, 30);        
         //Supia
-        grafo.addArista(13, 14, true, 14);
-        grafo.addArista(13, 15, true, 18);        
+        grafo.addArista(13, 14, false, 14);
+        grafo.addArista(13, 15, false, 18);        
         //Riosucio        
         //Marmato
-        grafo.addArista(15, 18, true, 70);        
+        grafo.addArista(15, 18, false, 70);        
         //Aranzazu
-        grafo.addArista(16, 17, true, 22);
-        grafo.addArista(16, 20, true, 76);        
+        grafo.addArista(16, 17, false, 22);
+        grafo.addArista(16, 20, false, 76);        
         //Salamina
-        grafo.addArista(17, 18, true, 33);
-        grafo.addArista(17, 19, true, 48);
-        grafo.addArista(17, 21, true, 124);
-        grafo.addArista(17, 20, true, 55);        
+        grafo.addArista(17, 18, false, 33);
+        grafo.addArista(17, 19, false, 48);
+        grafo.addArista(17, 21, false, 124);
+        grafo.addArista(17, 20, false, 55);        
         //Pacora
-        grafo.addArista(18, 19, true, 15);        
+        grafo.addArista(18, 19, false, 15);        
         //Aguadas
-        grafo.addArista(19, 21, true, 146);        
+        grafo.addArista(19, 21, false, 146);        
         //Marulanda
-        grafo.addArista(20, 21, true, 70);
-        grafo.addArista(20, 22, true, 40);        
+        grafo.addArista(20, 21, false, 70);
+        grafo.addArista(20, 22, false, 40);        
         //Pensilvania
-        grafo.addArista(21, 22, true, 30);
-        grafo.addArista(21, 23, true, 50);
-        grafo.addArista(21, 24, true, 95);        
+        grafo.addArista(21, 22, false, 30);
+        grafo.addArista(21, 23, false, 50);
+        grafo.addArista(21, 24, false, 95);        
         //Manzanares
-        grafo.addArista(22, 23, true, 25);        
+        grafo.addArista(22, 23, false, 25);        
         //Marquetalia
-        grafo.addArista(23, 24, true, 45);
-        grafo.addArista(23, 26, true, 28);        
+        grafo.addArista(23, 24, false, 45);
+        grafo.addArista(23, 26, false, 28);        
         //Samaná
-        grafo.addArista(24, 25, true, 49);
-        grafo.addArista(24, 26, true, 35);        
+        grafo.addArista(24, 25, false, 49);
+        grafo.addArista(24, 26, false, 35);        
         //Norcasia
-        grafo.addArista(25, 27, true, 42);
-        grafo.addArista(25, 26, true, 87);        
+        grafo.addArista(25, 27, false, 42);
+        grafo.addArista(25, 26, false, 87);        
         //Victoria
-        grafo.addArista(26, 27, true, 45);        
+        grafo.addArista(26, 27, false, 45);        
         //Dorada
 
 
         // Dpto Risaralda
-        grafo.addArista(41, 42, true, 0);
-        grafo.addArista(41, 43, true, 0);
-        grafo.addArista(41, 45, true, 0);
+        grafo.addArista(41, 42, false, 0);
+        grafo.addArista(41, 43, false, 0);
+        grafo.addArista(41, 45, false, 0);
 
-        grafo.addArista(42, 45, true, 0);
-        grafo.addArista(42, 46, true, 0);
-        grafo.addArista(42, 47, true, 0);
+        grafo.addArista(42, 45, false, 0);
+        grafo.addArista(42, 46, false, 0);
+        grafo.addArista(42, 47, false, 0);
 
-        grafo.addArista(43, 44, true, 0);
-        grafo.addArista(43, 45, true, 0);
+        grafo.addArista(43, 44, false, 0);
+        grafo.addArista(43, 45, false, 0);
 
-        grafo.addArista(45, 46, true, 0);
+        grafo.addArista(45, 46, false, 0);
 
-        grafo.addArista(46, 47, true, 0);
+        grafo.addArista(46, 47, false, 0);
 
-        grafo.addArista(47, 48, true, 0);
-        grafo.addArista(47, 49, true, 0);
-        grafo.addArista(47, 50, true, 0);
+        grafo.addArista(47, 48, false, 0);
+        grafo.addArista(47, 49, false, 0);
+        grafo.addArista(47, 50, false, 0);
 
-        grafo.addArista(48, 49, true, 0);
+        grafo.addArista(48, 49, false, 0);
 
-        grafo.addArista(49, 50, true, 0);
-        grafo.addArista(49, 51, true, 0);
+        grafo.addArista(49, 50, false, 0);
+        grafo.addArista(49, 51, false, 0);
 
-        grafo.addArista(50, 51, true, 0);
-        grafo.addArista(50, 0, true, 0);
+        grafo.addArista(50, 51, false, 0);
+        grafo.addArista(50, 0, false, 0);
 
-        grafo.addArista(51, 52, true, 0);
-        grafo.addArista(51, 53, true, 0);
-        grafo.addArista(51, 0, true, 0);
+        grafo.addArista(51, 52, false, 0);
+        grafo.addArista(51, 53, false, 0);
+        grafo.addArista(51, 0, false, 0);
 
-        grafo.addArista(52, 53, true, 0);
-        grafo.addArista(52, 0, true, 0);
+        grafo.addArista(52, 53, false, 0);
+        grafo.addArista(52, 0, false, 0);
 
-        grafo.addArista(53, 0, true, 0);
+        grafo.addArista(53, 0, false, 0);
 
 
         // DPTO RISARALDA CALDAS
         //Riosucio Guatica
-        grafo.addArista(14, 43, true, 25);
+        grafo.addArista(14, 43, false, 25);
         //Riosucio Quinchia
-        grafo.addArista(14, 44, true, 19);
+        grafo.addArista(14, 44, false, 19);
         //Riosucio Mistrato
-        grafo.addArista(14, 41, true, 50);
+        grafo.addArista(14, 41, false, 50);
 
         //Filadelfia Quinchia
-        grafo.addArista(11, 44, true, 77);
+        grafo.addArista(11, 44, false, 77);
 
         //Anserma Quinchia
-        grafo.addArista(10, 44, true, 25);
+        grafo.addArista(10, 44, false, 25);
         //Anserma Guatica
-        grafo.addArista(10, 43, true, 12);
+        grafo.addArista(10, 43, false, 12);
         //Anserma Belen
-        grafo.addArista(10, 45, true, 28);
+        grafo.addArista(10, 45, false, 28);
 
         //Neira Quinchia
-        grafo.addArista(2, 44, true, 92);
+        grafo.addArista(2, 44, false, 92);
 
         //Viterbo Apia
-        grafo.addArista(7, 46, true, 17);
+        grafo.addArista(7, 46, false, 17);
         //Viterbo Santuario
-        grafo.addArista(7, 47, true, 54);
+        grafo.addArista(7, 47, false, 54);
         //Viterbo Virginia
-        grafo.addArista(7, 50, true, 23);
+        grafo.addArista(7, 50, false, 23);
 
         // Belalcazar Virginia
-        grafo.addArista(6, 50, true, 18);
+        grafo.addArista(6, 50, false, 18);
         // Belalcazar Marsella
-        grafo.addArista(6, 0, true, 74);
+        grafo.addArista(6, 0, false, 74);
 
         // Chinchina Marsella
-        grafo.addArista(5, 0, true, 28);
+        grafo.addArista(5, 0, false, 28);
         // Chinchina SantaRosa
-        grafo.addArista(5, 53, true, 14);
+        grafo.addArista(5, 53, false, 14);
 
         //Villamaria SantaRosa
-        grafo.addArista(3, 53, true, 43); 
+        grafo.addArista(3, 53, false, 43); 
         
         
         
