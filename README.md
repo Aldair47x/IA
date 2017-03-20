@@ -1,2 +1,2 @@
-# Inteligencia Artificial - Universidad tecnológica de Pereira (UTP)
+# Inteligencia Artificial - Universidad Tecnológica de Pereira (UTP)
 Workshops, HW, Projects...
