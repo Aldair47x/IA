@@ -114,8 +114,8 @@ X1=[10,11]
 U=[11,5]
 
 cities = An10k5()
-#cities = [DEPOSITO, A, B, C, D, E, F,Z,X1,U]
-tour0 = shortest_tour(alltours_tsp(cities))
+#cities = [DEPOSITO, A, B, C, D, E]
+tour0 = alltours_tsp(cities)
 tour = [A,B,C,D,E,A] #17.05
 tour1 = [B,C,A,D,E,B] #17.65
 tour2 = [C,B,E,A,D,C] #21.85
@@ -131,6 +131,6 @@ print ("\n------AHORROS-------------\n")
 printMatriz (matrizAhorros(cities,matriz))
 print ("--------------°--------------")
 
-print (list((alltours_tsp(cities))))
+print (list(tour0))
 
 #print (list(cws_vrp(cities,DEPOSITO)))
