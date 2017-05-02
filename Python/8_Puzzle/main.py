@@ -70,16 +70,16 @@ def move_right( state ):
 		# Can't move, return None
 		return None
 
-def create_node( state, parent, operator, depth, cost ):
-	return Node( state, parent, operator, depth, cost )
+def create_node( state, parent, operator, depth):
+	return Node( state, parent, operator, depth)
 
 def expand_node( node, nodes ):
 	"""Returns a list of expanded nodes"""
 	expanded_nodes = []
-	expanded_nodes.append( create_node( move_up( node.state ), node, "Arriba", node.depth + 1, 0 ) )
-	expanded_nodes.append( create_node( move_down( node.state ), node, "Abajo", node.depth + 1, 0 ) )
-	expanded_nodes.append( create_node( move_left( node.state ), node, "Izquierda", node.depth + 1, 0 ) )
-	expanded_nodes.append( create_node( move_right( node.state), node, "Derecha", node.depth + 1, 0 ) )
+	expanded_nodes.append( create_node( move_up( node.state ), node, "Arriba", node.depth + 1) )
+	expanded_nodes.append( create_node( move_left( node.state ), node, "Izquierda", node.depth + 1) )
+	expanded_nodes.append( create_node( move_down( node.state ), node, "Abajo", node.depth + 1) )
+	expanded_nodes.append( create_node( move_right( node.state), node, "Derecha", node.depth + 1) )
 	# Filter the list and remove the nodes that are impossible (move function returned None)
 	expanded_nodes = [node for node in expanded_nodes if node.state != None] #list comprehension!
 	return expanded_nodes
