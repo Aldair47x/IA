@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 class board(object):
     BLACK = 1
     WHITE = 0
