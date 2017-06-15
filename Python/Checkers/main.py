@@ -2,8 +2,11 @@
 # Modify and personalize By Aldair Bernal 
 # These 
 # Main class runs the game
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 from board import *
 from minmax import *
+
 
 # Setup variables
 width = 8
